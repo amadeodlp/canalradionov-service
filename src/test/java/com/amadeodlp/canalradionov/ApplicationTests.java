@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype;
+package com.amadeodlp.canalradionov;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

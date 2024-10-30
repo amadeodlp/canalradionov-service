@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.app.config;
+package com.amadeodlp.canalradionov.app.config;
 
 import java.util.List;
 import org.springframework.context.annotation.Bean;

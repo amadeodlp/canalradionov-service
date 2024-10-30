@@ -1,14 +1,12 @@
-package com.vikingsasquatch.cognito_service_prototype.core.services;
+package com.amadeodlp.canalradionov.core.services;
 
-import com.vikingsasquatch.cognito_service_prototype.core.exceptions.UnauthorizedException;
-import com.vikingsasquatch.cognito_service_prototype.core.model.CognitoPoolConfig;
-import com.vikingsasquatch.cognito_service_prototype.core.model.LoginResponse;
-import com.vikingsasquatch.cognito_service_prototype.core.model.SessionResponse;
+import com.amadeodlp.canalradionov.core.model.CognitoPoolConfig;
+import com.amadeodlp.canalradionov.core.model.LoginResponse;
+import com.amadeodlp.canalradionov.core.model.SessionResponse;
+import com.amadeodlp.canalradionov.core.exceptions.UnauthorizedException;
 import java.util.Objects;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
-import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.AwsSessionCredentials;
 import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
 import software.amazon.awssdk.regions.Region;

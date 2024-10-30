@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.core.utils;
+package com.amadeodlp.canalradionov.core.utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.math.BigInteger;

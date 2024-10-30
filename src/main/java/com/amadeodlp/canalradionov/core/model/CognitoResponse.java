@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.core.model;
+package com.amadeodlp.canalradionov.core.model;
 
 public record CognitoResponse(
 	String accessToken,

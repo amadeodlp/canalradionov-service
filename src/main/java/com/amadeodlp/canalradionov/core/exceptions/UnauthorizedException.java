@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.core.exceptions;
+package com.amadeodlp.canalradionov.core.exceptions;
 
 public class UnauthorizedException extends Exception {
 	

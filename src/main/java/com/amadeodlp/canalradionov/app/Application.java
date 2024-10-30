@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.app;
+package com.amadeodlp.canalradionov.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

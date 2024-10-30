@@ -1,4 +1,4 @@
-package com.vikingsasquatch.cognito_service_prototype.core.model;
+package com.amadeodlp.canalradionov.core.model;
 
 import com.vikingsasquatch.common.auth.scope.UserScope;
 import java.util.Set;

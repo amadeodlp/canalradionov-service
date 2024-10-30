@@ -1,9 +1,9 @@
-package com.vikingsasquatch.cognito_service_prototype.core.services;
+package com.amadeodlp.canalradionov.core.services;
 
-import com.vikingsasquatch.cognito_service_prototype.core.exceptions.UnauthorizedException;
-import com.vikingsasquatch.cognito_service_prototype.core.model.CachedScopes;
-import com.vikingsasquatch.cognito_service_prototype.core.model.SessionResponse;
-import com.vikingsasquatch.cognito_service_prototype.core.utils.JwkUtil;
+import com.amadeodlp.canalradionov.core.exceptions.UnauthorizedException;
+import com.amadeodlp.canalradionov.core.model.CachedScopes;
+import com.amadeodlp.canalradionov.core.model.SessionResponse;
+import com.amadeodlp.canalradionov.core.utils.JwkUtil;
 import com.vikingsasquatch.common.auth.scope.ScopeOperation;
 import com.vikingsasquatch.common.auth.scope.UserScope;
 import io.jsonwebtoken.Claims;

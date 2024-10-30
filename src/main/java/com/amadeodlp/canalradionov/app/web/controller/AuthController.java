@@ -1,10 +1,10 @@
-package com.vikingsasquatch.cognito_service_prototype.app.web.controller;
+package com.amadeodlp.canalradionov.app.web.controller;
 
-import com.vikingsasquatch.cognito_service_prototype.core.exceptions.UnauthorizedException;
-import com.vikingsasquatch.cognito_service_prototype.core.model.LoginRequest;
-import com.vikingsasquatch.cognito_service_prototype.core.model.LoginResponse;
-import com.vikingsasquatch.cognito_service_prototype.core.model.SessionResponse;
-import com.vikingsasquatch.cognito_service_prototype.core.services.CognitoService;
+import com.amadeodlp.canalradionov.core.model.LoginRequest;
+import com.amadeodlp.canalradionov.core.model.LoginResponse;
+import com.amadeodlp.canalradionov.core.model.SessionResponse;
+import com.amadeodlp.canalradionov.core.services.CognitoService;
+import com.amadeodlp.canalradionov.core.exceptions.UnauthorizedException;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
