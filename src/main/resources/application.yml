@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: canal-radio-nov-service
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:h2:mem:canalradiodb
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+jwt:
+  secret: changeThisToASecureSecretKeyInProductionEnvironment
+  expiration: 86400  # 24 hours in seconds
+
+logging:
+  level:
+    root: INFO
+    com.amadeodlp: DEBUG
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+
+app:
+  media:
+    bucket-name: canal-radio-nov-media
+    cloudfront-domain:
+
+# API Keys - Replace these with your actual keys in production
+lastfm:
+  api:
+    key: YOUR_LASTFM_API_KEY
+    secret: YOUR_LASTFM_API_SECRET
